@@ -1,5 +1,5 @@
 # calculadora-conversion-diamantes
-Este proyecto tiene una idea de una *"calculadora de diamantes"*. Siendo los diamantes la moneda de un vídeo juego. 
+Este proyecto tiene la idea de la creación de una *"calculadora de diamantes"*. Siendo los diamantes la moneda de un vídeo juego. 
 
 ## **Nombre de los Integrantes del proyecto:**
 
