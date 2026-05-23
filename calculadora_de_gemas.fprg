@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="calculadora_de_gemas"/>
+        <attribute name="authors" value="mateo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-22 04:31:50 p. m."/>
+        <attribute name="created" value="bWF0ZW87REVTS1RPUC1NNjFNTkY4OzIwMjYtMDUtMjI7MDM6MDk6NTEgcC4gbS47MzA0Nw=="/>
+        <attribute name="edited" value="bWF0ZW87REVTS1RPUC1NNjFNTkY4OzIwMjYtMDUtMjI7MDQ6MzE6NTAgcC4gbS47MTszMTUw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="CantidadDinero, GemasPorDolar, BaseBatalla, SaldoGemas" type="Real" array="False" size=""/>
+            <assign variable="GemasPorDolar" expression="100"/>
+            <assign variable="BaseBatalla" expression="1500"/>
+            <output expression="&quot;Ingresa la cantidad de dinero a recargar&quot;" newline="True"/>
+            <input variable="CantidadDinero"/>
+            <assign variable="SaldoGemas" expression="CantidadDinero*GemasPorDolar"/>
+            <if expression="SaldoGemas&gt;=BaseBatalla">
+                <then>
+                    <output expression="&quot;Te alcanza para el Pase de Batalla&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;No te alcanza para el pase de batalla&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
